@@ -36,7 +36,7 @@ ActiveRecord::Schema.define(version: 2020_11_13_153509) do
   create_table "prototypes", options: "ENGINE=InnoDB DEFAULT CHARSET=utf8", force: :cascade do |t|
     t.string "title"
     t.text "catch_copy"
-    t.text "consept"
+    t.text "concept"
     t.bigint "user_id"
     t.datetime "created_at", precision: 6, null: false
     t.datetime "updated_at", precision: 6, null: false
