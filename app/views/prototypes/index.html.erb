@@ -4,7 +4,7 @@
     <%# ログインしているときは以下を表示する %>
       <div class="greeting">
         <div>こんにちは,
-        <%= link_to current_user.name, root_path, class: :greeting__link %>さん
+        <%= link_to current_user.name, user_path(current_user), class: :greeting__link %>さん
         </div>
       </div> 
     <%# // ログインしているときは上記を表示する %>
